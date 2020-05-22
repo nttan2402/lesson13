@@ -30,12 +30,63 @@ body {
 	/*Trong suot*/
 	color: #FFF;
 }
-
-
-
 /*Bài 12: Background image
 background-image: url(..)
 background-repeat: repeat-x| repeat-y| no-repeat| ...
 background-size: %, contain, cover, auto
 background-position: x y |center
 background-attachment: scroll| fixed*/
+
+.list-item-pattern {
+	background-image: url(./pattern.jpg);
+	background-size: 8%;
+	/*background-position: x;*/
+	background-repeat: repeat;
+	height: 50px;
+	color: red;
+}
+.list-item-image {
+	background-image: url(./bg.jpg);
+	height: 100px;
+	color: white;
+	background-size: cover;
+	/*Tùy chọn kích cỡ khung hình*/
+	background-position: 0px -220px; 
+	/*Vị trí của khung hình trên ảnh*/
+}
+
+.list-item-parallax {
+	background-image: url(./bg.jpg);
+	height: 100px;
+	color: white;
+	background-size: cover;
+	/*Tùy chọn kích cỡ khung hình*/
+	background-position: 100px -100px; 
+	/*Vị trí của khung hình trên ảnh*/
+	background-attachment: fixed;	
+}
+
+/*Bài 13: icons. key google: font Awesome, material icons Guide*/
+
+/*  <!-- custom styling for all icons -->*/
+  i.fas,
+  i.fab {
+    border: 1px solid red;
+  }
+
+  /*<!-- custom styling for specific icons -->*/
+  .fa-fish {
+    color: salmon;
+  }
+
+  .fa-frog {
+    color: green;
+  }
+
+  .fa-user-ninja.vanished {
+    opacity: 0.0;
+  }
+
+  .fa-facebook {
+    color: rgb(59, 91, 152);
+  }
