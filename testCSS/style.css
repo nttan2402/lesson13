@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+h1{
+	color: #1003F1;
+	font-family: 'Pangolin', cursive;
+
+}
+body {
+	background-color: #ef8c8c; 
+
+} 
+
+
+/*Bài 11: Background-color:
+ Background-color: color
+  Background-color: transparent;
+   Background-color: gradient;
+   key google: CSS gradient generator*/
+.list-item {
+	color: #1003F1;
+	font-family: 'Pangolin', cursive;
+	font-size: 14px;
+	padding: 6px ;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	background-color: #72cbff;
+}
+.list-item-transparent {
+	background: rgb(2,0,36);
+	background: linear-gradient(32deg, rgba(2,0,36,1) 0%, rgba(38,124,137,1) 46%, rgba(80,226,255,1) 100%); 
+	/*Trong suot*/
+	color: #FFF;
+}
+
+
+
+/*Bài 12: Background image
+background-image: url(..)
+background-repeat: repeat-x| repeat-y| no-repeat| ...
+background-size: %, contain, cover, auto
+background-position: x y |center
+background-attachment: scroll| fixed*/
