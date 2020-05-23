@@ -54,39 +54,54 @@ background-attachment: scroll| fixed*/
 	background-position: 0px -220px; 
 	/*Vị trí của khung hình trên ảnh*/
 }
+.list-item-awesome-icon {
+	color: black;
+	font-family: 'Pangolin', cursive;
+	font-size: 14px;
+	padding: 1px ;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	background-color: white;
+	height: 100px;
+}
+/*.list-item-material-icon {
+	color: black;
+	font-family: 'Pangolin', cursive;
+	font-size: 14px;
+	padding: 6px ;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	background-color: pink;
+	height: 100px;
+}*/
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.orange600 { color: #FB8C00; }
+.list-item-material-icon {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
 
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
 .list-item-parallax {
 	background-image: url(./bg.jpg);
 	height: 100px;
 	color: white;
 	background-size: cover;
 	/*Tùy chọn kích cỡ khung hình*/
-	background-position: 100px -100px; 
+	background-position: 0px -100px; 
 	/*Vị trí của khung hình trên ảnh*/
 	background-attachment: fixed;	
 }
 
 /*Bài 13: icons. key google: font Awesome, material icons Guide*/
 
-/*  <!-- custom styling for all icons -->*/
-  i.fas,
-  i.fab {
-    border: 1px solid red;
-  }
-
-  /*<!-- custom styling for specific icons -->*/
-  .fa-fish {
-    color: salmon;
-  }
-
-  .fa-frog {
-    color: green;
-  }
-
-  .fa-user-ninja.vanished {
-    opacity: 0.0;
-  }
-
-  .fa-facebook {
-    color: rgb(59, 91, 152);
-  }
