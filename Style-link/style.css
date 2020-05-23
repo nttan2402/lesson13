@@ -1,0 +1,44 @@
+.style-link{
+	color: black;
+}
+
+/*Thẻ mặc định*/
+.style-link:link {
+	color: #5eab05;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+/*style cho link*/
+.style-link:visited{
+	color: pink;
+	font-size: 40px;
+	box-shadow: currentColor;
+}
+/*style khi đã bấm vào link*/
+
+.style-link:hover{
+	font-family: serif;
+	text-decoration: underline;
+	color: yellow;
+}
+/*style khi di chuyển qua*/
+.style-link:active{
+	font-family: sans-serif;
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+}
+/*style khi click vào*/
+
+/*style CSS cho nút bấm*/
+.button-link {
+	text-decoration: none;
+    background: #9eabe8;
+    color: #FFF;
+    font-family: sans-serif;
+    padding: 4px 27px;
+}
+
+.button-link:hover {
+	background-color: #001fff;
+}
